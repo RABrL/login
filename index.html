@@ -14,7 +14,7 @@
                 <img src="./assets/logo.png" alt="">
             </a>
 
-            <div class="nav_reduce">
+            <div class="nav_responsive">
                 <a href="#menu" class="nav_target">
                     <span class="line1_nav_target"></span>
                     <span class="line2_nav_target"></span>
@@ -22,15 +22,15 @@
                 </a>
                 
                 <div class="nav_links" id="menu">
-                    <a href="#" class="nav_link">Home</a>
-                    <a href="#" class="nav_link">About us</a>
-                    <a href="#" class="nav_link">Our products</a>
+                    <a href="#header" class="nav_link">Home</a>
+                    <a href="#about_us" class="nav_link">About us</a>
+                    <a href="#our_products" class="nav_link">Our products</a>
                 </div>
             </div>
         </nav>
     </header>
 <main>
-    <section class="about_us">
+    <section class="about_us" id="about_us">
         <figure class="about_us_picture">
             <img src="./assets/image-aboutUs.jpg" alt="luffy funko" class="about_us_img">
         </figure>
@@ -41,8 +41,68 @@
             </p>
         </div>
     </section>
+
+    <section class="products" id="our_products">
+        <h2>PRODUCTS</h2>
+
+        <div class="container">
+            <div class="select_product">
+                <select name="" id="list">
+                    <option value=""> </option>
+                    <option value="">Luffy Gear Four</option>
+                    <option value="">Brook</option>
+                    <option value="">Ace</option>
+                    <option value="">Crocodile</option>
+                    <option value="">Doflamingo</option>
+                    <option value="">Sanji</option>
+                </select>
+                <button type="button" id="btn_pedir">Pedir</button>
+            </div>
+            <div class="articles">
+                <article >
+                    <figure>
+                        <img src="./assets/luffyG4-funko.jpg" alt="funko de luffy cuarta marcha">
+                    </figure>
+                    <h3>Luffy Gear Four</h3>
+                </article>
+                <article >
+                    <figure>
+                        <img src="./assets/brook-funko.jpg" alt="funko de luffy cuarta marcha">
+                    </figure>
+                    <h3>Brook</h3>
+                </article>
+                <article >
+                    <figure>
+                        <img src="./assets/ace-funko.jpg" alt="funko de luffy cuarta marcha">
+                    </figure>
+                    <h3>Ace</h3>
+                </article>
+                <article >
+                    <figure>
+                        <img src="./assets/crocodile-funko.jpeg" alt="funko de luffy cuarta marcha">
+                    </figure>
+                    <h3>Crocodile</h3>
+                </article>
+                <article >
+                    <figure>
+                        <img src="./assets/doflamingo-funko.jpg" alt="funko de luffy cuarta marcha">
+                    </figure>
+                    <h3> Doflamingo</h3>
+                </article>
+                <article >
+                    <figure>
+                        <img src="./assets/sanji-funko.jpg" alt="funko de luffy cuarta marcha">
+                    </figure>
+                    <h3>Sanji</h3>
+                </article>
+            </div>
+        </div>
+    </section>
 </main>
 
+<footer>
+    <p>Made by RABrL with <3</p>
+</footer>
     <script src="./index.js"></script>
 </body>
 </html>
